@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Chatt-App_FIREBASE-AND-REACT/static/css/main.9d8e5054.css",
+    "main.js": "/Chatt-App_FIREBASE-AND-REACT/static/js/main.782bc879.js",
+    "static/media/5172658.jpg": "/Chatt-App_FIREBASE-AND-REACT/static/media/5172658.77a5e04e69772b8e4c75.jpg",
+    "index.html": "/Chatt-App_FIREBASE-AND-REACT/index.html",
+    "main.9d8e5054.css.map": "/Chatt-App_FIREBASE-AND-REACT/static/css/main.9d8e5054.css.map",
+    "main.782bc879.js.map": "/Chatt-App_FIREBASE-AND-REACT/static/js/main.782bc879.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d8e5054.css",
+    "static/js/main.782bc879.js"
+  ]
+}
