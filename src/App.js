@@ -39,8 +39,8 @@ setRoom(null)
           <button onClick={()=>setRoom(roomInputRef.current.value)}>Enter Chat Room</button>
         </div>
       )}
-      <div className="sign-out">
-        <button onClick={signUserOut}>Sign Out</button>
+      <div>
+        <button className="sign-out" onClick={signUserOut}>Sign Out</button>
       </div>
     </>
   );

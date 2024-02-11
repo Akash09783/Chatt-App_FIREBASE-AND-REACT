@@ -52,7 +52,7 @@ const Chat = ({ room }) => {
   return (
     <div className="chat-app">
       <div className="header">
-        <h1>Welcome to: {room.toUpperCase()}</h1>
+        <h1 style={{marginRight:"229px"}} className="wlc2" >Welcome to: {room.toUpperCase()}</h1>
       </div>
       <div className="messages">
         {messages.map((message) => (

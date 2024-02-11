@@ -1,6 +1,9 @@
 body {
   padding: 0;
   margin: 0;
+  background-image: url(./5172658.jpg);
+ 
+
 }
 
 .App {
@@ -32,32 +35,269 @@ body {
   text-align: center;
   font-size: 25px;
   margin-bottom: 20px;
+  color: #ffffff;
+  margin-left: 18px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
 }
 
 .room input {
   width: 200px;
-  height: 30px;
-  border: 2px solid #3b5998;
+  height: 35px;
+  border: 2px solid #0e358a;
   border-radius: 6px;
   padding-left: 5px;
   font-size: 20px;
   text-align: center;
   margin: 5px;
+  margin-left: 862px;
 }
 .room button {
-  width: 210px;
-  height: 40px;
-  border: none;
-  border-radius: 6px;
-  padding-left: 5px;
-  font-size: 20px;
-  text-align: center;
-  margin: 5px;
-  background-color: #3b5998;
-  color: white;
+
+    background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    height: 2.4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all .5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 215px;
+    margin-left: 860px;
+  }
+
+
+.sign-out{
+ 
+  border-radius: 8px;
+  background-color: #3c4fe0;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
   cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2.4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 215px;
+  margin-left: 860px;
+  margin-top: 0.4rem;
+}
+.bt1{
+
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5a89ff 0, #54f4ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+ margin-left: "30px";
 }
 
-.sign-out {
-  margin-top: 50px;
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+.title{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  margin-left: 18px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+.wlc{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  margin-left: 320px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #4113e9 0%,
+    #89a535 29%,
+    #07c229 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 23px;
+}
+.pr{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  margin-left: 300px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #100f14 0%,
+    #b37417 29%,
+    #c9d9cc 67%,
+    #080806 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 16px;
+      
+}
+.fc{
+  text-align: center;
+  font-size: 35px;
+  margin-bottom: 5px;
+  color: #ffffff;
+  margin-left: 380px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #3d1eb6 0%,
+    #17b350 29%,
+    #7a1167 67%,
+    #080806 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 16px;
+}
+.wlc2{
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  margin-left: 300px;
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #6246d2 0%,
+    #94be14 29%,
+    #fbfffc 67%,
+    #192a80 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 30px;
 }
