@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "chat-app-7e6fe"
-  }
+    "default": "chat-app-7e6fe",
+    "chat-app": "chat-app-7e6fe",
+    "chat": "chat-app-7e6fe"
+  },
+  "targets": {},
+  "etags": {}
 }
